@@ -11,9 +11,9 @@ const Others = () => {
           <li>Youtube</li>
           <li>Teaching</li>
         </ul>
-        <div className="boxWrap flex flex-col gap-10   my-10 ">
+        <div className="boxWrap flex flex-col md:flex-row gap-10 px-4 md:px-0 my-10 ">
           <div className=" ">
-            <div className=" bg-bg3 w-full h-96 mb-3 rounded-md"></div>
+            <div className=" bg-bg3 w-full h-96 mb-3  rounded-md"></div>
             <h3 className="w-4/5 ml-4 text-[20px]">
               Explaining the Atomic Design System and how designers can
               implement it

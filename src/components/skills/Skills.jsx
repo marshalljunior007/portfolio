@@ -3,8 +3,8 @@ import React from 'react';
 const Skills = () => {
   return (
     <div>
-      <div className="container mx-auto  flex flex-col gap-10   text-white">
-        <div className="skills pt-10 bg-red-400 mt-4">
+      <div className="container md:mx-auto  flex flex-col gap-10   text-white">
+        <div className="skills pt-10  mt-4">
           <div className="text-center mb-4">
             <h1 className="text-[24px] capitalize font-bold pb-3">skills</h1>
             <p

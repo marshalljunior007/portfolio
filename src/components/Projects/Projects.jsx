@@ -3,11 +3,15 @@ import React from 'react';
 const Projects = () => {
   return (
     <div className="mx-auto container">
-      <div className="boxWrap flex flex-col gap-20 -mt-40">
+      <div className="px-4 text-white -mt-10 py-10">
+        <h2>Projects</h2>
+        <p>products i have worked on </p>
+      </div>
+      <div className="boxWrap flex flex-col md:flex-row gap-20 ">
         <div className="col1  ">
-          <div className="box1 px-5  pb-8 ">
-            <div className=" bg-bg3 h-96 rounded-lg relative">
-              <div className="bg-white  rounded-md absolute bottom-0 right-0 py-3 text-center m-9">
+          <div className="box1 px-4  pb-8 ">
+            <div className=" bg-bg3 md:h-96 w-full size-96  md:rounded-lg relative">
+              <div className="bg-white  rounded-md absolute bottom-0 right-0  px-3 py-3  text-center m-9">
                 <h1 className="">view Case Study </h1>
               </div>
             </div>
@@ -22,9 +26,9 @@ const Projects = () => {
               </p>
             </div>
           </div>
-          <div className="box2 px-5    ">
-            <div className=" bg-bg3 h-96 rounded-lg relative">
-              <div className="bg-white w-2/6 rounded-md absolute bottom-0 right-0 py-3 text-center m-9">
+          <div className="box2 px-4    ">
+            <div className=" bg-bg3 h-96 md:rounded-lg w-full size-96 relative ">
+              <div className="bg-white md:w-2/6 rounded-md absolute bottom-0 right-0 px-3 py-3 text-center m-9">
                 <h1 className="">view Case Study </h1>
               </div>
             </div>
@@ -42,8 +46,8 @@ const Projects = () => {
         </div>
         <div className="col2  ">
           <div className="box1 px-5 mb-20  pb-8 ">
-            <div className=" bg-bg3 h-96 rounded-lg relative">
-              <div className="bg-white w-2/6 rounded-md absolute bottom-0 right-0 py-3 text-center m-9">
+            <div className=" bg-bg3 h-96 md:rounded-lg relative w-full">
+              <div className="bg-white md:w-2/6 rounded-md px-3 py-3 absolute bottom-0 right-0  text-center m-9">
                 <h1 className="">view Case Study </h1>
               </div>
             </div>
@@ -59,8 +63,8 @@ const Projects = () => {
             </div>
           </div>
           <div className="box1 px-5 mb-20  pb-8 ">
-            <div className=" bg-bg3 h-96 rounded-lg relative">
-              <div className="bg-white w-2/6 rounded-md absolute bottom-0 right-0 py-3 text-center m-9">
+            <div className=" bg-bg3 h-96 md:rounded-lg w-full relative">
+              <div className="bg-white md:w-2/6 rounded-md absolute bottom-0 right-0 px-3 py-3 text-center m-9">
                 <h1 className="">view Case Study </h1>
               </div>
             </div>

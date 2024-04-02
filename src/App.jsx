@@ -9,7 +9,7 @@ import Skills from './components/skills/Skills';
 
 function App() {
   return (
-    <div className="bg-black font-['Sora'] mx-auto">
+    <div className="bg-black font-['Sora'] ">
       <Navbar />
       <Hero />
       <Projects />

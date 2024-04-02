@@ -4,12 +4,12 @@ import FeatherIcon from 'feather-icons-react';
 
 const Hero = () => {
   return (
-    <div className="container mx-auto text-white w-full max-h-[955px]">
+    <div className="container mx-auto text-white w-full max-h-[955px] ">
       <div
-        className="bg-cover bg-center bg-no-repeat mx-auto   md:bg-top z-0 h-screen"
+        className="bg-cover bg-center bg-no-repeat mx-auto   md:bg-top  h-screen"
         style={{ backgroundImage: `url(${img})` }}
       >
-        <div className="HeroWrap flex py-8  flex-col-reverse md:flex-row md:pt-[200px] ">
+        <div className="HeroWrap flex py-8  flex-col-reverse px-4 md:flex-row md:pt-[200px] ">
           <div className="socials flex-1 flex py-4 gap-5  md:py-4 md:flex-col">
             <div className="bg-bg3 size-[50px] rounded-full py-3 mb-3 flex justify-center items-center  ">
               <FeatherIcon icon="instagram" />
@@ -39,7 +39,7 @@ const Hero = () => {
               I`m an all round <span className="text-white">PRODUCT</span> guy,
               focussed in building
               <span className="text-white">SAAS</span> related products. I`m a
-              user centric product designer with{' '}
+              user centric product designer with
               <span className="text-white">wealth of experience </span>working
               with developers and the entire product team. If you want to launch
               an MVP, <span className="text-white">startup</span>, build saas,
@@ -49,10 +49,6 @@ const Hero = () => {
               an idea then I`m your guy.
             </p>
           </div>
-        </div>
-        <div>
-          <h2>Projects</h2>
-          <p>products i have worked on </p>
         </div>
       </div>
     </div>

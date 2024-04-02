@@ -2,7 +2,7 @@ import React from 'react';
 
 const Contact = () => {
   return (
-    <div className="container mx-auto h-96 flex justify-center items-center text-white">
+    <div className="container md:mx-auto  md:flex md:justify-center text-white h-screen md:items-center ">
       <div className="textWrap text-center  ">
         <h1 className="text-[64px] font-bold uppercase w-4/5  mx-auto pb-5">
           {' '}
